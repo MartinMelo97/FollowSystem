@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	accounts/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170211_1020.py	accounts/migrations/0002_auto_20170211_1020.py	1;"	kind:file	line:1
+0003_auto_20170211_1038.py	accounts/migrations/0003_auto_20170211_1038.py	1;"	kind:file	line:1
+ABSOLUTE_URL_OVERRIDES	stalker/settings.py	/^ABSOLUTE_URL_OVERRIDES = {$/;"	kind:variable	line:129
+ALLOWED_HOSTS	stalker/settings.py	/^ALLOWED_HOSTS = ["*"]$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	stalker/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AccountsConfig	accounts/apps.py	/^class AccountsConfig(AppConfig):$/;"	kind:class	line:4
+BASE_DIR	stalker/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Contact	accounts/models.py	/^class Contact(models.Model):$/;"	kind:class	line:11
+DATABASES	stalker/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	stalker/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	stalker/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	stalker/settings.py	/^LANGUAGE_CODE = 'es'$/;"	kind:variable	line:107
+MEDIA_ROOT	stalker/settings.py	/^MEDIA_ROOT = (os.path.join(BASE_DIR,'media'))$/;"	kind:variable	line:125
+MEDIA_URL	stalker/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:124
+MIDDLEWARE	stalker/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Meta	accounts/models.py	/^	class Meta:$/;"	kind:class	line:16
+Migration	accounts/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	accounts/migrations/0002_auto_20170211_1020.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	accounts/migrations/0003_auto_20170211_1038.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Profile	accounts/models.py	/^class Profile(models.Model):$/;"	kind:class	line:5
+ProfileAdmin	accounts/admin.py	/^class ProfileAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+ROOT_URLCONF	stalker/settings.py	/^ROOT_URLCONF = 'stalker.urls'$/;"	kind:variable	line:53
+STATIC_ROOT	stalker/settings.py	/^STATIC_ROOT = (os.path.join(BASE_DIR,'static'))$/;"	kind:variable	line:122
+STATIC_URL	stalker/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	stalker/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	stalker/settings.py	/^TIME_ZONE = 'America\/Mexico_City'$/;"	kind:variable	line:109
+USE_I18N	stalker/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	stalker/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	stalker/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	stalker/settings.py	/^WSGI_APPLICATION = 'stalker.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	accounts/__init__.py	1;"	kind:file	line:1
+__init__.py	accounts/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	stalker/__init__.py	1;"	kind:file	line:1
+__str__	accounts/models.py	/^	def __str__(self):$/;"	kind:member	line:19
+admin.py	accounts/admin.py	1;"	kind:file	line:1
+application	stalker/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	accounts/apps.py	1;"	kind:file	line:1
+created	accounts/models.py	/^	created = models.DateTimeField(auto_now_add=True, db_index=True)$/;"	kind:variable	line:14
+dependencies	accounts/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	accounts/migrations/0002_auto_20170211_1020.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	accounts/migrations/0003_auto_20170211_1038.py	/^    dependencies = [$/;"	kind:variable	line:12
+detailview	accounts/views.py	/^def detailview(request, username):$/;"	kind:function	line:43
+field	accounts/migrations/0002_auto_20170211_1020.py	/^            field=models.ImageField(blank=True, null=True, upload_to='imagenes'),$/;"	kind:variable	line:18
+fields	accounts/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	accounts/migrations/0003_auto_20170211_1038.py	/^            fields=[$/;"	kind:variable	line:20
+img	accounts/models.py	/^	img = models.ImageField(upload_to='imagenes', blank=True, null=True)$/;"	kind:variable	line:8
+initial	accounts/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+kwargs	stalker/urls.py	/^		kwargs={'document_root':settings.MEDIA_ROOT}$/;"	kind:variable	line:32
+list_display	accounts/admin.py	/^	list_display = ['id','user']$/;"	kind:variable	line:6
+listview	accounts/views.py	/^def listview(request):$/;"	kind:function	line:38
+manage.py	manage.py	1;"	kind:file	line:1
+model_name	accounts/migrations/0002_auto_20170211_1020.py	/^            model_name='profile',$/;"	kind:variable	line:16
+model_name	accounts/migrations/0003_auto_20170211_1038.py	/^            model_name='profile',$/;"	kind:variable	line:31
+models.py	accounts/models.py	1;"	kind:file	line:1
+name	accounts/apps.py	/^    name = 'accounts'$/;"	kind:variable	line:5
+name	accounts/migrations/0001_initial.py	/^            name='Profile',$/;"	kind:variable	line:20
+name	accounts/migrations/0002_auto_20170211_1020.py	/^            name='img',$/;"	kind:variable	line:17
+name	accounts/migrations/0003_auto_20170211_1038.py	/^            name='Contact',$/;"	kind:variable	line:19
+name	accounts/migrations/0003_auto_20170211_1038.py	/^            name='followers',$/;"	kind:variable	line:32
+name	accounts/urls.py	/^		name = "home"),$/;"	kind:variable	line:7
+name	accounts/urls.py	/^		name = "profile"),$/;"	kind:variable	line:11
+name	accounts/urls.py	/^		name = "user_detail"),$/;"	kind:variable	line:19
+name	accounts/urls.py	/^		name="user_follow"),$/;"	kind:variable	line:15
+operations	accounts/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	accounts/migrations/0002_auto_20170211_1020.py	/^    operations = [$/;"	kind:variable	line:14
+operations	accounts/migrations/0003_auto_20170211_1038.py	/^    operations = [$/;"	kind:variable	line:17
+options	accounts/migrations/0003_auto_20170211_1038.py	/^            options={$/;"	kind:variable	line:26
+ordering	accounts/models.py	/^		ordering = ('-created',)$/;"	kind:variable	line:17
+profile	accounts/views.py	/^def profile(request):$/;"	kind:function	line:48
+regex	stalker/urls.py	/^		regex=r'^media\/(?P<path>.*)$',$/;"	kind:variable	line:30
+settings.py	stalker/settings.py	1;"	kind:file	line:1
+tests.py	accounts/tests.py	1;"	kind:file	line:1
+urlpatterns	accounts/urls.py	/^urlpatterns = [$/;"	kind:variable	line:3
+urlpatterns	stalker/urls.py	/^urlpatterns = [$/;"	kind:variable	line:22
+urls.py	accounts/urls.py	1;"	kind:file	line:1
+urls.py	stalker/urls.py	1;"	kind:file	line:1
+user	accounts/models.py	/^	user = models.OneToOneField(User)$/;"	kind:variable	line:6
+user_follow	accounts/views.py	/^def user_follow(request):$/;"	kind:function	line:14
+user_from	accounts/models.py	/^	user_from = models.ForeignKey(User, related_name='rel_from_set')$/;"	kind:variable	line:12
+user_to	accounts/models.py	/^	user_to = models.ForeignKey(User, related_name='rel_to_set')$/;"	kind:variable	line:13
+view	stalker/urls.py	/^		view=serve,$/;"	kind:variable	line:31
+views.py	accounts/views.py	1;"	kind:file	line:1
+wsgi.py	stalker/wsgi.py	1;"	kind:file	line:1
